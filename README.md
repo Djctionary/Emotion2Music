@@ -50,9 +50,9 @@ Emotion2Music/
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # This file
 ├── model/
-│   └── va_2d_model.pth            # Trained model (copy from parent dir)
+│   └── va_2d_model.pth            # Trained model
 └── data/
-    └── top3_themes_with_vad_mood_900.tsv  # Dataset (copy from parent dir)
+    └── top3_themes_with_vad_mood_900.tsv  # Dataset
 ```
 
 ## 🎯 How It Works
@@ -98,38 +98,6 @@ The model can predict various moods including:
 This project is for educational purposes. Please check the licenses of individual components:
 - MTG-Jamendo Dataset: [License](https://mtg.github.io/mtg-jamendo-dataset/)
 - Jamendo Music: Creative Commons licensed tracks
-
-## 🐛 Troubleshooting
-
-**Issue**: Model not loading
-- **Solution**: Ensure `model/va_2d_model.pth` exists in the correct path
-
-**Issue**: No audio playback
-- **Solution**: Check internet connection and Jamendo API availability
-
-**Issue**: Keywords not recognized
-- **Solution**: Try more common emotional words (happy, sad, calm, etc.)
-
-## 💡 Tips
-
-- Use simple, emotional adjectives for best results
-- Add keywords one at a time to build your emotion profile
-- Combine 2-3 keywords for more nuanced results
-- Try the preset emotion buttons for quick testing
-- Use "Remove Last" to adjust your emotion bubble collection
-- Click "Clear All" to start fresh
-- Experiment with different combinations!
-- No duplicate keywords - each emotion appears only once
-
-## 🔮 Future Improvements
-
-- [ ] Support for more languages
-- [ ] Playlist generation
-- [ ] User feedback and rating system
-- [ ] Custom model training interface
-- [ ] Music visualization
-
----
 
 Made with ❤️ using Streamlit, PyTorch & Jamendo API
 
