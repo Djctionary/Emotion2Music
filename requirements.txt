@@ -1,0 +1,6 @@
+streamlit
+torch
+pandas
+numpy
+requests
+rapidfuzz
